@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: Monospace;
+}
+
+#body {
+    background: #333;
+}
+
+.hdrContain {
+    position: relative;
+    top: 20px;
+    background: rgba(12,225,190, 0.4);
+    
+    max-width: 86%;
+    height: auto;
+    padding: 0.6em;
+    border: 0.2em solid #23ffca;
+    
+    
+    margin: 0 auto;
+}
+
+.hdrTxt1 {
+    position: relative;
+    text-align: center;
+    
+    color: #23ffca;
+}
+
+.superParent {
+    position: relative;
+    top: 3em;
+    
+    background: none;
+    max-width: 90%;
+    height: 600px;
+    
+    margin: 0 auto;
+    
+}
+
+.subParentDiv {
+    
+    position: relative;
+    top: 1.5em;
+    
+    background: #222;
+    border: 0.2em solid #1c1b1b;
+    max-width: 95%;
+    height: 560px;
+    
+    margin: 0 auto;
+}
+
+#displayBoxContainer {
+    
+
+    position: relative;
+    top: 1.4em;
+    
+    
+    background: #111;
+    max-width: 90%;
+    height: 14.18%;
+    margin: 0 auto;
+    
+
+    
+    overflow: auto;
+}
+
+#input {
+    position: relative;
+    top: 2%;
+    left: 0.5%;
+    
+    max-width: 99.2%;
+    height: 28px;
+    padding: 0.1;
+    
+    /*margin: 0 auto;*/
+    background: #111;
+}
+
+/* INPUT TXT */
+
+
+
+#answer {
+    position: relative;
+    top: 4.4%;
+    left: 0.5%;
+    
+    max-width: 99.2%;
+    height: 45.9px;
+    padding: 0.1;
+    
+    /*margin: 0 auto;*/
+    background: #111;
+}
+
+#resultTxt {
+    position: relative;
+    top: 16%;
+    left: 1%;
+    font-size: 170%;
+    color: #45ffca;
+}
+#inputTxt {
+    position: relative;
+    top: 16%;
+    left: 1%;
+    font-size: 100%;
+    color: yellow;
+    
+    display: inline-block;
+    
+}
+
+/* BUTTONS - GRID SYSTEM */
+
+
+#divButtonContainer {
+    box-sizing: border-box;
+    position: relative;
+    
+    top: 4.5%;
+    
+    background: #222;
+    max-width: 90%;
+    height: 72%;
+    
+    margin: 0 auto;
+    
+}
+
+
+
+.divButtons {
+
+    
+    position: relative;
+    background: #333;
+    border: 0.2em solid #111;
+    
+    max-width: 19%;
+    height: 15%;
+}
+
+.divButtons:active {
+
+    
+    position: relative;
+    background: #1c1d1d;
+    border: 0.2em solid #111;
+    
+    max-width: 19%;
+    height: 15%;
+}
+
+.bttnLabel {
+    
+    font-size: 1.05em;
+    position: relative;
+    top: 40%;
+    color: #ccc;
+    
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#divBttn1 {
+    position: relative;
+    
+}
+#divBttn2 {
+    position: relative;
+    left: 20.25%;
+    bottom: 16.28%;
+    
+}
+#divBttn3 {
+    position: relative;
+    left: 40.5%;
+    bottom: 32.56%;
+    
+}
+#divBttn4 {
+    background: #774847;
+    position: relative;
+    left: 60.75%;
+    bottom: 48.85%;
+    
+    
+    
+}
+#divBttn4:active {
+    background: #553433;
+    position: relative;
+    left: 60.75%;
+    bottom: 48.85%;
+    
+}
+#divBttn5 {
+    position: relative;
+    left: 0%;
+    bottom: 48%;
+    
+}
+#divBttn6 {
+    position: relative;
+    left: 20.25%;
+    bottom: 64.34%;
+    
+}
+#divBttn7 {
+    position: relative;
+    left: 40.5%;
+    bottom: 80.68%;
+    
+}
+#divBttn8 {
+    position: relative;
+    left: 60.75%;
+    bottom: 96.9%;
+    
+    background: #464577;
+    
+}
+
+#divBttn8:active {
+    position: relative;
+    left: 60.75%;
+    bottom: 96.9%;
+    
+    background: #2c2b55;
+    
+}
+
+#divBttn9 {
+    position: relative;
+    
+}
+#divBttn10 {
+    position: relative;
+    left: 20.25%;
+    bottom: 16.28%;
+    
+}
+#divBttn11 {
+    position: relative;
+    left: 40.5%;
+    bottom: 32.56%;
+    
+}
+#divBttn12 {
+    position: relative;
+    left: 60.75%;
+    bottom: 48.85%;
+    
+}
+#divBttn13 {
+    position: relative;
+    left: 0%;
+    bottom: 10%;
+    
+}
+#divBttn14 {
+    position: relative;
+    left: 0%;
+    bottom: 47.24%;
+    
+}
+#divBttn15 {
+    position: relative;
+    left: 20.25%;
+    bottom: 63.48%;
+    
+}
+#divBttn16 {
+    position: relative;
+    left: 60.75%;
+    bottom: 96.9%;
+
+}
+
+#divBttn17 {
+    position: relative;
+    left: 0%;
+    bottom: 96%;
+    
+}
+#divBttn18 {
+    position: relative;
+    left: 20.25%;
+    bottom: 112.36%;
+    
+}
+#divBttn19 {
+    position: relative;
+    left: 40.5%;
+    bottom: 128.64%;
+    
+}
+#divBttn20 {
+    position: relative;
+    left: 40.6%;
+    bottom: 127.7%;
+    max-width: 39.2%;
+    
+}
+
+
+#divBttn21 {
+    position: absolute;
+    left: 40.6%;
+    bottom: 0%;
+    max-width: 39.2%;
+    
+}
+
+#rowTwoOther {
+    position: relative;
+    bottom: 96%;
+    display: inline;
+}
+
+#rowThreeOther {
+    position: relative;
+    bottom: 96%;
+    display: inline;
+}
+
+#rowFourLast {
+    position: relative;
+    bottom: 113.16%;
+    display: inline;
+}
+
+#webulatorTxt {
+    position: relative;
+    display: block;
+    
+    left: 28%;
+    top: 30px;
+    font-size: 1em;
+    color: #333;
+}
